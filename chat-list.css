@@ -67,6 +67,8 @@ nav {
 .btn {
   background: #4e50b8;
   border-radius: 7px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .fa-ellipsis-v {
@@ -376,10 +378,10 @@ input {
   border-top: none;
 }
 
-/* .style {
+.style {
   width: 20%;
   border-radius: 6px;
-} */
+}
 
 .style-1 {
   width: 7%;
@@ -537,124 +539,245 @@ input {
   position: relative;
 }
 
-.dude {
-  margin-right: 1.5rem;
-}
-
-.locate-comp {
-  display: flex;
-  flex-direction: row;
-}
-
-.navbar {
-  flex-wrap: nowrap;
-}
-
 @media screen and (min-width: 1024px) {
-
-}
-
-@media screen and (min-width: 992px) {
-
-}
-
-@media screen and (min-width: 768px) {
-
-}
-
-@media screen and (min-width: 576px) {
-  .profile-sum {
+  .text-nav {
     display: none;
   }
 
-  .main {
+  /* .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1.2rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  } */
+
+  .navbar {
     display: flex;
-    flex-direction: column;
   }
 
-  .previous,
-  .next,
-  .heart,
-  .cancel {
+  .fa-search {
+    display: block;
+  }
+
+  input {
+    display: block;
+  }
+
+  .menu-links {
+    display: flex;
+  }
+
+  .personal-profile {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .text-nav {
     display: none;
   }
 
-  .fa-times-circle {
-    color: #f0916e;
-    font-size: 1.5rem;
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 0.8rem;
     position: absolute;
-    left: 48px;
-    top: 10px;
-  }
-
-  .dude {
-    margin-right: 1rem;
-  }
-
-  .locate-comp {
-    display: none;
-  }
-
-  .fa-user,
-  .vert-bar {
-    display: none;
-  }
-
-  .navbar-brand {
-    padding-left: 14rem;
-    margin-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .right {
-    flex-direction: row-reverse;
+    left: 102px;
+    z-index: 1;
+    top: 108px;
   }
 
   .navbar {
-    flex-wrap: nowrap;
+    display: flex;
   }
 
-  nav .fa-bars {
+  .fa-search {
+    display: block;
+  }
+
+  input {
+    display: block;
+  }
+
+  .menu-links {
+    display: flex;
+  }
+
+  .personal-profile {
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  /* chat-list */
+  .navbar {
+    display: none;
+  }
+
+  .chat-header {
+    box-shadow: 0 5px 10px lightgrey;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .chats-users {
+    box-shadow: 0 5px 10px lightgrey;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .personal-profile {
+    display: none;
+  }
+
+  .input-type {
+    display: none;
+  }
+
+  .style-1 {
+    width: 10%;
+  }
+
+  .users-name {
+    margin-top: 1rem;
+  }
+
+  .text-links {
+    padding-left: 4rem;
+    padding-right: 4.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     position: relative;
-    right: 225px;
+    top: 17px;
+    width: 100%;
   }
 
-  nav .fa-bell {
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .text-links .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
     position: relative;
-    left: 142px;
+    top: 1px;
+    box-shadow: 0 5px 10px lightgrey;
   }
+}
 
-  .popular {
+@media screen and (max-width: 576px) {
+  /* chat-list */
+  .navbar {
     display: none;
   }
 
-  .filter {
+  .chat-header {
+    box-shadow: 0 5px 10px lightgrey;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .chats-users {
+    box-shadow: 0 5px 10px lightgrey;
+  }
+
+  .menu-links {
     display: none;
   }
 
-  .more-info .info-1 {
+  .personal-profile {
     display: none;
   }
 
-  .surname {
+  .input-type {
     display: none;
   }
 
-  .more-info .btn {
-    display: none;
+  .style-1 {
+    width: 10%;
   }
 
-  .view-page {
-    display: none;
+  .users-name {
+    margin-top: 1rem;
   }
 
-  .more-people {
-    display: none;
+  .text-links {
+    padding-left: 3rem;
+    padding-right: 2.91rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+    width: 100%;
   }
 
-  .my-4 {
-    display: none;
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .text-links .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px lightgrey;
   }
 }
 
