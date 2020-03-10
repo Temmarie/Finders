@@ -98,13 +98,18 @@ nav {
 .personal-profile {
   border: 1px solid transparent;
   border-radius: 10px;
-  box-shadow: 0 5px 10px lightgrey;
+  box-shadow: 0 5px 10px rgb(206, 210, 231);
 }
 
 .links li {
   font-size: 1rem;
   line-height: 2;
   font-family: 'Open Sans', sans-serif;
+}
+
+.left-users a {
+  color: black;
+  transition: color, ease-in, 2s;
 }
 
 .links li a {
@@ -539,18 +544,22 @@ input {
   position: relative;
 }
 
+.left-users a:hover {
+  color: #4e50b8;
+}
+
 @media screen and (min-width: 1024px) {
   .text-nav {
     display: none;
   }
 
-  /* .btn {
+  .btn {
     background: #4e50b8;
     border-radius: 7px;
     padding-left: 1.2rem;
     padding-right: 1rem;
     font-size: 0.8rem;
-  } */
+  }
 
   .navbar {
     display: flex;
@@ -614,7 +623,6 @@ input {
   .personal-profile {
     display: flex;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -624,14 +632,14 @@ input {
   }
 
   .chat-header {
-    box-shadow: 0 5px 10px lightgrey;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
     margin-bottom: 1rem;
     width: 100%;
     padding: 1rem;
   }
 
   .chats-users {
-    box-shadow: 0 5px 10px lightgrey;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
   }
 
   .menu-links {
@@ -647,7 +655,8 @@ input {
   }
 
   .style-1 {
-    width: 10%;
+    width: 19%;
+    height: 67px;
   }
 
   .users-name {
@@ -695,7 +704,7 @@ input {
     border-radius: 6px;
     position: relative;
     top: 1px;
-    box-shadow: 0 5px 10px lightgrey;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
   }
 }
 
@@ -706,14 +715,14 @@ input {
   }
 
   .chat-header {
-    box-shadow: 0 5px 10px lightgrey;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
     margin-bottom: 1rem;
     width: 100%;
     padding: 1rem;
   }
 
   .chats-users {
-    box-shadow: 0 5px 10px lightgrey;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
   }
 
   .menu-links {
@@ -729,16 +738,13 @@ input {
   }
 
   .style-1 {
-    width: 10%;
-  }
-
-  .users-name {
-    margin-top: 1rem;
+    width: 19%;
+    height: 67px;
   }
 
   .text-links {
-    padding-left: 3rem;
-    padding-right: 2.91rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     position: relative;
@@ -777,7 +783,33 @@ input {
     border-radius: 6px;
     position: relative;
     top: 1px;
-    box-shadow: 0 5px 10px lightgrey;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+  }
+
+  .main {
+    flex-wrap: wrap;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .users-name {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+    position: relative;
+    top: -65px;
+    left: 105px;
+    margin-top: 1rem;
+  }
+
+  .text-nav {
+    position: relative;
+    top: 0;
+    display: block;
+    background: white;
+    width: 100%;
   }
 }
 
