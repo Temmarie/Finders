@@ -638,8 +638,13 @@ input {
 
   .btn {
     font-size: 0.8rem;
-    padding-right: 0;
-    padding-left: 1rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .fa-check-circle {
