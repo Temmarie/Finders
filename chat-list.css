@@ -28,10 +28,26 @@ nav {
   color: lightgrey;
 }
 
+.logo {
+  transition: box-shadow, ease-in, 2s;
+}
+
+.logo:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 10px #4e50b8;
+  transform: rotate(360deg);
+}
+
 .logo .logo1 {
   color: #4e50b8;
   font-size: 2rem;
   font-weight: 700;
+}
+
+.navbar {
+  flex-wrap: nowrap;
+  cursor: pointer;
+  box-shadow: 0 5px 10px #cacbee;
 }
 
 .navbar-brand {
@@ -52,6 +68,12 @@ nav {
   height: 65px;
   border: 1px solid transparent;
   border-radius: 10px;
+  transition: box-shadow, ease-in, 1s;
+}
+
+.green:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 10px #4e50b8;
 }
 
 .greenie {
@@ -98,7 +120,12 @@ nav {
 .personal-profile {
   border: 1px solid transparent;
   border-radius: 10px;
+  transition: box-shadow, ease-in, 1s;
   box-shadow: 0 5px 10px rgb(206, 210, 231);
+}
+
+.personal-profile:hover {
+  box-shadow: 0 5px 10px #4e50b8;
 }
 
 .links li {
