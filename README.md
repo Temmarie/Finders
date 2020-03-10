@@ -20,13 +20,17 @@
 
 
 ## Live Demo
-[Live Demo](https://raw.githack.com/Temmarie/Newsweek_clone/feature/index.html)
+[Live Demo](https://raw.githack.com/Temmarie/HTML_-_CSS_Capstone_project/feature/index.html)
 
 👤 **Author**
 
 - Github: [@Temmarie](https://github.com/Temmarie)
 - Twitter: [@TemmarieW](https://twitter.com/TemmarieW)
 - Linkedin: [Grace Tife Ekunola](https://www.linkedin.com/in/ekunola-grace-b02b1b194/)
+
+
+## Credits 
+Core Design by [ Vlad Ermakov on Dribbble](https://dribbble.com/ermalength), [see here](https://www.behance.net/gallery/70285515/Swipex-This-application-for-dating)
 
 ## 🤝 Contributing
 
