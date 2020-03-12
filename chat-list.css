@@ -34,8 +34,6 @@ nav {
 
 .logo:hover {
   cursor: pointer;
-  box-shadow: 0 5px 10px #4e50b8;
-  transform: rotate(360deg);
 }
 
 .logo .logo1 {
@@ -45,9 +43,9 @@ nav {
 }
 
 .navbar {
-  flex-wrap: nowrap;
   cursor: pointer;
-  box-shadow: 0 5px 10px #cacbee;
+  box-shadow: 0 5px 10px lightgrey;
+  white-space: nowrap;
 }
 
 .navbar-brand {
@@ -132,6 +130,7 @@ nav {
   font-size: 1rem;
   line-height: 2;
   font-family: 'Open Sans', sans-serif;
+  white-space: nowrap;
 }
 
 .left-users a {
@@ -149,6 +148,8 @@ nav {
   font-size: 0.8rem;
   border: 1px solid transparent;
   border-radius: 4px;
+  vertical-align: baseline;
+  cursor: pointer;
 }
 
 .crown {
@@ -182,6 +183,10 @@ nav {
   left: 124px;
   z-index: 1;
   top: 106px;
+}
+
+.user-name {
+  white-space: nowrap;
 }
 
 .user-name .status {
@@ -342,16 +347,6 @@ nav {
   top: 15px;
 }
 
-/* .fa-edit {
-  border: 1px solid transparent;
-  background: #4e50b8;
-  color: white;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  left: 263px;
-  top: 7px;
-} */
-
 .fa-edit {
   border: 1px solid transparent;
   background: #4e50b8;
@@ -360,6 +355,7 @@ nav {
   border-radius: 5px;
   top: 7px;
   right: 0;
+  cursor: pointer;
 }
 
 input {
@@ -583,9 +579,20 @@ input {
   .btn {
     background: #4e50b8;
     border-radius: 7px;
-    padding-left: 1.2rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    position: absolute;
     font-size: 0.8rem;
+    padding-right: 1rem;
+    left: 68px;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 95px;
+    z-index: 1;
+    top: 106px;
   }
 
   .navbar {

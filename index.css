@@ -34,8 +34,6 @@ nav {
 
 .logo:hover {
   cursor: pointer;
-  box-shadow: 0 5px 10px #4e50b8;
-  transform: rotate(360deg);
 }
 
 .logo .logo1 {
@@ -75,9 +73,7 @@ nav {
 }
 
 .profile-sum {
-  height: 90px;
   width: 100%;
-  background: rgb(252, 252, 252);
 }
 
 .btn {
@@ -116,6 +112,7 @@ nav {
   border-radius: 10px;
   transition: box-shadow, ease-in, 1s;
   box-shadow: 0 5px 10px rgb(206, 210, 231);
+  padding-bottom: 17px;
 }
 
 .personal-profile:hover {
@@ -126,6 +123,7 @@ nav {
   font-size: 1rem;
   line-height: 2;
   font-family: 'Open Sans', sans-serif;
+  white-space: nowrap;
 }
 
 .links li a {
@@ -138,6 +136,8 @@ nav {
   font-size: 0.8rem;
   border: 1px solid transparent;
   border-radius: 4px;
+  vertical-align: baseline;
+  cursor: pointer;
 }
 
 .crown {
@@ -151,8 +151,9 @@ nav {
 }
 
 .expand {
-  left: 40px;
+  left: 5px;
   position: relative;
+  top: 4px;
 }
 
 .fa-heart {
@@ -171,6 +172,10 @@ nav {
   left: 124px;
   z-index: 1;
   top: 106px;
+}
+
+.user-name {
+  white-space: nowrap;
 }
 
 .user-name .status {
@@ -215,6 +220,12 @@ nav {
   justify-content: center;
   border: 1px solid transparent;
   border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow, ease-in, 1s;
+}
+
+.view-page:hover {
+  box-shadow: 0 5px 10px lightgrey;
 }
 
 .more-people .fa-users {
@@ -317,7 +328,8 @@ nav {
 }
 
 /* chat details */
-.chat-list-details {
+
+/* .chat-list-details {
   padding-left: 0;
   padding-right: 0;
   border: 1px solid transparent;
@@ -340,16 +352,6 @@ nav {
   font-size: 1.3rem;
   top: 15px;
 }
-
-/* .fa-edit {
-  border: 1px solid transparent;
-  background: #4e50b8;
-  color: white;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  left: 263px;
-  top: 7px;
-} */
 
 .fa-edit {
   border: 1px solid transparent;
@@ -407,14 +409,14 @@ input {
 
 .left-users:nth-child(1) {
   border-top: none;
-}
+} */
 
 /* .style {
   width: 20%;
   border-radius: 6px;
 } */
 
-.style-1 {
+/* .style-1 {
   width: 7%;
   height: 67px;
   border-radius: 6px;
@@ -436,7 +438,7 @@ input {
   font-weight: 100;
   font-size: 0.75rem;
   color: lightgrey;
-}
+} */
 
 /* .time {
   font-size: 0.6rem;
@@ -528,6 +530,7 @@ input {
   width: 100%;
 } */
 
+/*
 .upload {
   background-color: #4e50b8;
   color: white;
@@ -572,7 +575,7 @@ input {
 
 .dude {
   margin-right: 1.5rem;
-}
+} */
 
 .locate-comp {
   display: flex;
@@ -580,14 +583,184 @@ input {
 }
 
 .navbar {
-  flex-wrap: nowrap;
   cursor: pointer;
-  box-shadow: 0 5px 10px #cacbee;
+  box-shadow: 0 5px 10px lightgrey;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 1024px) {
+  .profile-sum {
+    display: block;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1.4rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .btn-1 {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.4rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 102px;
+    z-index: 1;
+    top: 104px;
+  }
+
+  .fa-times-circle {
+    left: 42px;
+  }
+
+  .text-dark {
+    white-space: nowrap;
+    position: absolute;
+    left: -8px;
+  }
+
+  .name {
+    white-space: nowrap;
+    position: absolute;
+    left: 1px;
+  }
+
+  .fa-ellipsis-v {
+    left: 8px;
+  }
+
+  .heart {
+    left: 169px;
+  }
+
+  .cancel {
+    left: 251px;
+  }
+
+  .next {
+    left: 366px;
+  }
+
+  .more-people .fa-users {
+    font-size: 3rem;
+  }
+
+  .build {
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+
+  .navbar-brand {
+    padding-left: 14rem;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 700px) {
+  .profile-sum {
+    display: block;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1.4rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .btn-1 {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.4rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 102px;
+    z-index: 1;
+    top: 104px;
+  }
+
+  .fa-times-circle {
+    left: 42px;
+  }
+
+  .text-dark {
+    white-space: nowrap;
+    position: absolute;
+    left: -8px;
+  }
+
+  .name {
+    white-space: nowrap;
+    position: absolute;
+    left: 1px;
+  }
+
+  .fa-ellipsis-v {
+    left: 8px;
+  }
+
+  .heart {
+    left: 169px;
+  }
+
+  .cancel {
+    left: 251px;
+  }
+
+  .next {
+    left: 366px;
+  }
+
+  .more-people .fa-users {
+    font-size: 3rem;
+  }
+
+  .build {
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+
+  .navbar-brand {
+    padding-left: 14rem;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+/* @media screen and (max-width: 992px) {
+  .profile-sum {
+    display: block;
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
   .previous {
     left: 55px;
+  }
+
+  .user-name {
+    white-space: unset;
   }
 
   .arrow {
@@ -637,6 +810,10 @@ input {
   }
 
   .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 0.8rem;
   }
 
@@ -657,11 +834,7 @@ input {
   }
 
   .fa-times-circle {
-    color: #f0916e;
-    font-size: 1.5rem;
-    position: absolute;
-    left: 66px;
-    top: 10px;
+    left: 42px;
   }
 
   .fa-ellipsis-v {
@@ -683,7 +856,31 @@ input {
   .links li a {
     padding-right: 0;
   }
-}
+
+  .fa-bars {
+    right: 454px;
+  }
+
+  .fa-bell {
+    right: 0;
+  }
+
+  .navbar-brand {
+    padding-left: 8rem;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+} */
 
 @media screen and (max-width: 576px) {
   .profile-sum {
@@ -842,3 +1039,161 @@ input {
     display: inline;
   }
 }
+
+/* @media screen and (min-width: 576px) {
+  .profile-sum {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .previous,
+  .next,
+  .heart,
+  .cancel {
+    display: none;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 48px;
+    top: 10px;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .navbar-brand {
+    padding-left: 14rem;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 225px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 142px;
+  }
+
+  .popular {
+    display: none;
+  }
+
+  .filter {
+    display: none;
+  }
+
+  .more-info .info-1 {
+    display: none;
+  }
+
+  .surname {
+    display: none;
+  }
+
+  .more-info .btn {
+    display: none;
+  }
+
+  .view-page {
+    display: none;
+  }
+
+  .more-people {
+    display: none;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .my-4 {
+    display: none;
+  }
+
+  .personal-profile {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    top: 528px;
+    left: -381px;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    bottom: -55px;
+    height: 55px;
+    width: 100%;
+    left: -123px;
+  }
+
+  .text-links {
+    padding-left: 2.76rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: inline;
+  }
+} */
