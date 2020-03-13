@@ -49,10 +49,15 @@ nav {
 }
 
 .navbar-brand {
-  padding-left: 19rem;
   margin-right: 0;
   padding-top: 0;
+  align-items: center;
   padding-bottom: 0;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  justify-content: center;
 }
 
 .logo .logo2 {
@@ -661,9 +666,6 @@ input {
 
 @media screen and (max-width: 768px) {
   /* chat-list */
-  .navbar {
-    display: none;
-  }
 
   .chat-header {
     box-shadow: 0 5px 10px rgb(206, 210, 231);
@@ -846,20 +848,3 @@ input {
     width: 100%;
   }
 }
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
