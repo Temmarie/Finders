@@ -12,6 +12,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   background: rgb(252, 252, 252);
+  overflow-x: hidden;
 }
 
 nav {
@@ -43,10 +44,15 @@ nav {
 }
 
 .navbar-brand {
-  padding-left: 19rem;
   margin-right: 0;
   padding-top: 0;
+  align-items: center;
   padding-bottom: 0;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  justify-content: center;
 }
 
 .logo .logo2 {
@@ -325,6 +331,7 @@ nav {
 }
 
 /* chat details */
+
 .chat-list-details {
   padding-left: 0;
   padding-right: 0;
@@ -350,16 +357,6 @@ nav {
   font-size: 1.3rem;
   top: 15px;
 }
-
-/* .fa-edit {
-  border: 1px solid transparent;
-  background: #4e50b8;
-  color: white;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  left: 263px;
-  top: 7px;
-} */
 
 .fa-edit {
   border: 1px solid transparent;
@@ -455,16 +452,9 @@ input {
   right: 10px;
 }
 
-/* .timer {
-  font-size: 0.6rem;
-  color: lightgrey;
-  position: absolute;
-  right: 10px;
-} */
-
 .chats-details {
-  left: 319px;
-  bottom: 690px;
+  left: 675px;
+  top: 149px;
   background: rgb(248, 248, 248);
 }
 
@@ -489,6 +479,15 @@ input {
 
 .texts-1 {
   padding-left: 272px;
+  margin-top: 1.5rem;
+}
+
+.texts {
+  margin-top: 1.5rem;
+}
+
+.texts:nth-child(1) {
+  margin-top: 0;
 }
 
 .curly-1 {
@@ -598,7 +597,7 @@ input {
   color: #4e50b8;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .profile-sum {
     display: block;
   }
@@ -626,8 +625,13 @@ input {
     white-space: nowrap;
   }
 
+  .texts:nth-child(11) {
+    display: none;
+  }
+
   .texts-1 {
     padding-left: 180px;
+    margin-top: 2rem;
   }
 
   /* .chats-details {
@@ -637,7 +641,7 @@ input {
 
   .chats-details {
     left: 512px;
-    bottom: -500px;
+    bottom: -552px;
   }
 
   .time-3 {
@@ -646,6 +650,27 @@ input {
 
   .time-2 {
     left: 0;
+  }
+
+  .text-nav {
+    position: absolute;
+    bottom: -38px;
+    height: 55px;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .text-links {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .upload {
+    right: -39px;
+  }
+
+  .compose {
+    bottom: -18px;
   }
 }
 
@@ -703,9 +728,8 @@ input {
 
   .menu-links {
     display: none;
-  } */
-
-  /* .search-left {
+  }
+   .search-left {
     display: none;
   }
 
