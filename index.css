@@ -1074,10 +1074,6 @@ input {
     margin-right: 1rem;
   }
 
-  /* .locate-comp {
-    display: none;
-  } */
-
   .fa-user,
   .vert-bar {
     display: none;
@@ -1101,42 +1097,10 @@ input {
     left: 142px;
   }
 
-  /* .popular {
-    display: none;
-  } */
-
-  /* .filter {
-    display: none;
-  }
-
-  .more-info .info-1 {
-    display: none;
-  }
-
-  .surname {
-    display: none;
-  }
-
-  .more-info .btn {
-    display: none;
-  }
-
-  .view-page {
-    display: none;
-  }
-
-  .more-people {
-    display: none;
-  } */
-
   .profile-info {
     white-space: nowrap;
     line-height: 0;
   }
-
-  /* .my-4 {
-    display: none;
-  } */
 
   .text-nav {
     display: flex;
@@ -1186,150 +1150,3 @@ input {
     display: inline;
   }
 }
-
-/*
-@media screen and (max-width: 576px) {
-  .status-info {
-    display: block;
-  }
-
-  .profile-sum {
-    display: none;
-  }
-
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .previous,
-  .next,
-  .heart,
-  .cancel {
-    display: none;
-  }
-
-  .fa-times-circle {
-    color: #f0916e;
-    font-size: 1.5rem;
-    position: absolute;
-    left: 48px;
-    top: 10px;
-  }
-
-  .dude {
-    margin-right: 1rem;
-  }
-
-  .locate-comp {
-    display: none;
-  }
-
-  .fa-user,
-  .vert-bar {
-    display: none;
-  }
-
-  .right {
-    flex-direction: row-reverse;
-  }
-
-  .navbar {
-    flex-wrap: nowrap;
-  }
-
-  nav .fa-bars {
-    position: relative;
-    right: 314px;
-  }
-
-  nav .fa-bell {
-    position: relative;
-    left: 142px;
-  }
-
-  .popular {
-    display: none;
-  }
-
-  .filter {
-    display: none;
-  }
-
-  .more-info .info-1 {
-    display: none;
-  }
-
-  .surname {
-    display: none;
-  }
-
-  .more-info .btn {
-    display: none;
-  }
-
-  .view-page {
-    display: none;
-  }
-
-  .more-people {
-    display: none;
-  }
-
-  .profile-info {
-    white-space: nowrap;
-    line-height: 0;
-  }
-
-  .my-4 {
-    display: none;
-  }
-
-  .text-nav {
-    display: flex;
-    position: absolute;
-    bottom: -55px;
-    height: 55px;
-    width: 100%;
-    left: -123px;
-  }
-
-  .text-links {
-    padding-left: 2.76rem;
-    padding-right: 2.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-    top: 17px;
-  }
-
-  .links-1 {
-    border: 1px solid transparent;
-    background: #4e50b8;
-    border-radius: 6px;
-    position: relative;
-    top: 1px;
-    box-shadow: 0 5px 10px rgb(206, 210, 231);
-  }
-
-  .text-links .fa-layer-group {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-comments {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-bookmark {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-user {
-    font-size: 20px;
-    color: lightgrey;
-    display: inline;
-  }
-} */
