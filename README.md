@@ -1,4 +1,7 @@
 # HTML_-_CSS_Capstone_project
+![demopage](./images/screenshot.png)
+
+This is the Capstone project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc
 
 ## Project objectives
 
@@ -16,8 +19,6 @@
 - Html5,
 - Bootstrap 4 
 - CSS3
-
-
 
 ## Live Demo
 [Live Demo](https://raw.githack.com/Temmarie/HTML_-_CSS_Capstone_project/feature/index.html)

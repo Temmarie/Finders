@@ -403,6 +403,7 @@ input {
   font-size: 1rem;
   font-weight: 600;
   font-family: 'Open sans', sans-serif;
+  white-space: nowrap;
 }
 
 .left-users {
@@ -679,6 +680,13 @@ input {
 
   .profile-sum {
     display: none;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    font-size: 1rem;
+    position: absolute;
+    right: -204px;
   }
 
   .mes-1 {
