@@ -2,7 +2,7 @@
 ![demopage](./images/screenshot.png)
 
 This is the Capstone project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc
-
+In this project I have used Bootstrap 4, HTML5 and CSS3 to build a job site using a dating webbsite's template.
 ## Project objectives
 
 * Build the most of the posibles app interfaces translated to the web
