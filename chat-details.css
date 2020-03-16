@@ -569,7 +569,7 @@ input {
   font-size: 1.5rem;
   color: lightgrey;
   top: 32px;
-  right: 112px;
+  right: 130px;
 }
 
 .fa-paperclip {
@@ -687,6 +687,16 @@ input {
     font-size: 1rem;
     position: absolute;
     right: -204px;
+  }
+
+  .style-1 {
+    width: 10%;
+    height: 73px;
+    border-radius: 6px;
+  }
+
+  .style {
+    width: 10%;
   }
 
   .mes-1 {

@@ -217,6 +217,7 @@ nav {
 
 .info-1 {
   font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .my-4 {
@@ -280,6 +281,9 @@ nav {
   position: relative;
   top: 20%;
   z-index: 0;
+  left: 13%;
+  display: flex;
+  flex-direction: row;
 }
 
 .miles {
@@ -340,126 +344,46 @@ nav {
   left: 338px;
 }
 
-/* chat details */
+.name-top {
+  padding-top: 6px;
+}
 
-/* .chat-list-details {
-  padding-left: 0;
-  padding-right: 0;
+.name-card {
+  left: 168px;
+  height: 40%;
+  width: 30%;
   border: 1px solid transparent;
-  border-radius: 10px;
+  border-radius: 8px;
+  bottom: -425px;
 }
 
-.chat-header {
-  border: 1px solid rgb(248, 249, 250);
-  border-radius: 10px 10px 0 0;
-}
-
-.search-left {
-  border-right: 1px solid rgb(248, 249, 250);
-}
-
-.fa-search {
-  font-weight: 700;
-  color: lightgrey;
-  left: 3px;
-  font-size: 1.3rem;
-  top: 15px;
-}
-
-.fa-edit {
-  border: 1px solid transparent;
-  background: #4e50b8;
-  color: white;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  top: 7px;
-  right: 0;
-}
-
-input {
-  color: lightgrey;
-  border: none;
-  position: relative;
-  left: 10px;
-  font: 400 1rem sans-serif;
-}
-
-.fa-phone {
-  color: lightgrey;
-  font-size: 20px;
-  transform: rotate(90deg);
-  top: 11px;
-}
-
-.fa-ellipsis-h {
-  color: lightgrey;
-  right: 0;
-  top: 11px;
-}
-
-.online {
-  position: absolute;
-  left: 36px;
-  font-weight: 100;
-  color: lightgrey;
-  font-size: 0.9rem;
-}
-
-.mid-name {
-  left: 259px;
-  top: 11px;
+.name-card-h4 {
   font-size: 1rem;
-  font-weight: 600;
-  font-family: 'Open sans', sans-serif;
 }
 
-.left-users {
-  border-top: 1px solid rgb(248, 249, 250);
-  border-left: 1px solid rgb(248, 249, 250);
-  border-right: 1px solid rgb(248, 249, 250);
-  width: 100%;
+.name-card-small {
+  font-size: 0.8rem;
 }
 
-.left-users:nth-child(1) {
-  border-top: none;
-} */
-
-/* .style {
-  width: 20%;
-  border-radius: 6px;
-} */
-
-/* .style-1 {
-  width: 7%;
-  height: 67px;
-  border-radius: 6px;
-}
-
-.fa-check {
-  color: #4e50b8;
-  left: 0;
-  top: 23px;
-}
-
-.users-name {
-  font-size: 1rem;
-  font-weight: 600;
-  font-family: 'Open sans', sans-serif;
-}
-
-.text-content {
-  font-weight: 100;
-  font-size: 0.75rem;
-  color: lightgrey;
-} */
-
-/* .time {
-  font-size: 0.6rem;
-  color: lightgrey;
+.fa-user-plus {
   position: absolute;
-  top: 10px;
-  right: 10px;
-} */
+  right: 0;
+  top: 9px;
+  padding-right: 12px;
+  font-size: 1.6rem;
+  color: #f0916e;
+}
+
+.fa-circle {
+  font-size: 0.5rem;
+  color: rgb(28, 184, 28);
+  position: absolute;
+}
+
+.learn {
+  font-size: 0.7rem;
+  color: lightgrey;
+}
 
 .timer {
   font-size: 0.6rem;
@@ -536,60 +460,6 @@ input {
   color: lightgrey;
 }
 
-/* .text-nav {
-  position: absolute;
-  bottom: -55px;
-  height: 55px;
-  width: 100%;
-} */
-
-/*
-.upload {
-  background-color: #4e50b8;
-  color: white;
-  font-size: 1.3rem;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  position: relative;
-  right: -56px;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.type-here {
-  border: 1px solid lightgrey;
-  border-radius: 5px;
-  padding: 1rem;
-  font: 400 1rem sans-serif;
-}
-
-.compose {
-  position: absolute;
-  left: 0;
-  bottom: -65px;
-  padding: 1rem;
-}
-
-.fa-smile {
-  font-size: 1.5rem;
-  color: lightgrey;
-  top: 32px;
-  right: 112px;
-}
-
-.fa-paperclip {
-  font-size: 1.5rem;
-  top: 9px;
-  color: lightgrey;
-  position: relative;
-}
-
-.dude {
-  margin-right: 1.5rem;
-} */
-
 .locate-comp {
   display: flex;
   flex-direction: row;
@@ -618,6 +488,10 @@ input {
     font-size: 0.8rem;
   }
 
+  .name-card {
+    display: none;
+  }
+
   .btn-1 {
     background: #4e50b8;
     border-radius: 7px;
@@ -648,7 +522,7 @@ input {
   .name {
     white-space: nowrap;
     position: absolute;
-    left: 1px;
+    left: 17px;
   }
 
   .fa-ellipsis-v {
@@ -678,233 +552,13 @@ input {
   }
 }
 
-/* @media screen and (min-width: 700px) {
-  .profile-sum {
-    display: block;
-  }
-
-  .btn {
-    background: #4e50b8;
-    border-radius: 7px;
-    padding-left: 1.4rem;
-    padding-right: 0.8rem;
-    font-size: 0.8rem;
-  }
-
-  .btn-1 {
-    background: #4e50b8;
-    border-radius: 7px;
-    padding-left: 0.4rem;
-    padding-right: 0.8rem;
-    font-size: 0.8rem;
-  }
-
-  .fa-check-circle {
-    color: white;
-    font-size: 1.2rem;
-    position: absolute;
-    left: 102px;
-    z-index: 1;
-    top: 104px;
-  }
-
-  .fa-times-circle {
-    left: 42px;
-  }
-
-  .text-dark {
-    white-space: nowrap;
-    position: absolute;
-    left: -8px;
-  }
-
-  .name {
-    white-space: nowrap;
-    position: absolute;
-    left: 1px;
-  }
-
-  .fa-ellipsis-v {
-    left: 8px;
-  }
-
-  .heart {
-    left: 169px;
-  }
-
-  .cancel {
-    left: 251px;
-  }
-
-  .next {
-    left: 366px;
-  }
-
-  .more-people .fa-users {
-    font-size: 3rem;
-  }
-
-  .build {
-    white-space: nowrap;
-    position: absolute;
-    left: 0;
-  }
-} */
-
-/* @media screen and (max-width: 576px) {
-  .profile-sum {
-    display: none;
-  }
-
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .previous,
-  .next,
-  .heart,
-  .cancel {
-    display: none;
-  }
-
-  .fa-times-circle {
-    color: #f0916e;
-    font-size: 1.5rem;
-    position: absolute;
-    left: 48px;
-    top: 10px;
-  }
-
-  .dude {
-    margin-right: 1rem;
-  }
-
-  .locate-comp {
-    display: none;
-  }
-
-  .fa-user,
-  .vert-bar {
-    display: none;
-  }
-
-  .right {
-    flex-direction: row-reverse;
-  }
-
-  .navbar {
-    flex-wrap: nowrap;
-  }
-
-  nav .fa-bars {
-    position: relative;
-    right: 225px;
-  }
-
-  nav .fa-bell {
-    position: relative;
-    left: 142px;
-  }
-
-  .popular {
-    display: none;
-  }
-
-  .filter {
-    display: none;
-  }
-
-  .more-info .info-1 {
-    display: none;
-  }
-
-  .surname {
-    display: none;
-  }
-
-  .more-info .btn {
-    display: none;
-  }
-
-  .view-page {
-    display: none;
-  }
-
-  .more-people {
-    display: none;
-  }
-
-  .profile-info {
-    white-space: nowrap;
-    line-height: 0;
-  }
-
-  .my-4 {
-    display: none;
-  }
-
-  .personal-profile {
-    border: 1px solid transparent;
-    border-radius: 10px;
-    position: relative;
-    box-shadow: 0 5px 10px rgb(206, 210, 231);
-    top: 528px;
-    left: -381px;
-  }
-
-  .text-nav {
-    display: flex;
-    position: absolute;
-    bottom: -55px;
-    height: 55px;
-    width: 100%;
-    left: -123px;
-  }
-
-  .text-links {
-    padding-left: 2.76rem;
-    padding-right: 2.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-    top: 17px;
-  }
-
-  .links-1 {
-    border: 1px solid transparent;
-    background: #4e50b8;
-    border-radius: 6px;
-    position: relative;
-    top: 1px;
-    box-shadow: 0 5px 10px rgb(206, 210, 231);
-  }
-
-  .text-links .fa-layer-group {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-comments {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-bookmark {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-user {
-    font-size: 20px;
-    color: lightgrey;
-    display: inline;
-  }
-} */
-
 @media screen and (max-width: 992px) {
   .profile-sum {
     display: block;
+  }
+
+  .name-card {
+    display: none;
   }
 }
 
@@ -915,6 +569,10 @@ input {
 
   .user-name {
     white-space: unset;
+  }
+
+  .name-card {
+    display: none;
   }
 
   .arrow {
@@ -930,6 +588,15 @@ input {
   .next {
     float: right;
     left: 540px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
   }
 
   .text-nav {
@@ -1090,7 +757,7 @@ input {
 
   nav .fa-bars {
     position: relative;
-    right: 314px;
+    right: 285px;
   }
 
   nav .fa-bell {
@@ -1106,15 +773,15 @@ input {
   .text-nav {
     display: flex;
     position: absolute;
-    bottom: -55px;
-    height: 55px;
-    width: 100%;
-    left: -123px;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 755px;
   }
 
   .text-links {
-    padding-left: 2.76rem;
-    padding-right: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     position: relative;
@@ -1128,6 +795,8 @@ input {
     position: relative;
     top: 1px;
     box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
   }
 
   .text-links .fa-layer-group {
@@ -1145,9 +814,61 @@ input {
     color: lightgrey;
   }
 
+  .fa-link {
+    color: white;
+  }
+
   .fa-user {
     font-size: 20px;
     color: lightgrey;
     display: inline;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 150px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -420px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
   }
 }
