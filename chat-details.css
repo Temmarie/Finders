@@ -454,8 +454,8 @@ input {
 }
 
 .chats-details {
-  left: 675px;
-  top: 149px;
+  left: -660px;
+  top: 53px;
   background: rgb(248, 248, 248);
 }
 
@@ -483,9 +483,9 @@ input {
   margin-top: 1.5rem;
 }
 
-.texts {
-  margin-top: 1.5rem;
-}
+/* .texts {
+  margin-top: 0;
+} */
 
 .texts:nth-child(1) {
   margin-top: 0;
@@ -508,7 +508,7 @@ input {
 
 .text-links {
   padding-left: 2.76rem;
-  padding-right: 2.5rem;
+  padding-right: 2.76rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   position: relative;
@@ -636,8 +636,12 @@ input {
   }
 
   .chats-details {
-    left: 512px;
-    bottom: -552px;
+    left: -497px;
+    top: 53px;
+  }
+
+  .fa-smile {
+    right: 100px;
   }
 
   .time-3 {
@@ -666,73 +670,193 @@ input {
   }
 
   .compose {
-    bottom: -18px;
+    bottom: -39px;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .chats-details {
-    left: 231px;
-    bottom: 486px;
-    background: rgb(248, 248, 248);
-    box-shadow: 0 5px 10px rgb(206, 210, 231);
-  }
-
-  .profile-sum {
-    display: none;
-  }
-
-  .fa-cog {
-    color: lightgrey;
-    font-size: 1rem;
-    position: absolute;
-    right: -204px;
-  }
-
+@media screen and (max-width: 992px) {
   .style-1 {
-    width: 10%;
-    height: 73px;
+    width: 14%;
+    height: 60px;
     border-radius: 6px;
   }
 
   .style {
-    width: 10%;
+    width: 19%;
   }
 
-  .mes-1 {
-    font-size: 0.6rem;
-    font-family: 'Open sans', sans-serif;
-    font-weight: 600;
-    background: lightgrey;
-    border: 1px solid transparent;
-    border-radius: 6px;
-    position: relative;
-    bottom: 18px;
+  .chats-details {
+    top: 55px;
+    left: -491px;
   }
 
   .texts-1 {
-    padding-left: 170px;
+    padding-left: 169px;
+    margin-top: 2rem;
   }
 
-  .time-3 {
-    left: 0;
+  .type-here {
+    padding: 1rem;
+    left: -87px;
+  }
+
+  .fa-smile {
+    right: 164px;
   }
 
   .time-2 {
-    left: 0;
+    right: 0;
+  }
+
+  .users-name {
+    font-size: 1rem;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+  }
+
+  .compose {
+    bottom: -69px;
   }
 
   .upload {
-    right: -27px;
+    right: 0;
   }
 
-  .text-links {
-    padding-left: 1.7rem;
-    padding-right: 1.7rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  .fa-ellipsis-h {
+    right: 70px;
+  }
+
+  .text-nav {
+    position: absolute;
+    bottom: -59px;
+    height: 75px;
+    display: inline-flex;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .style-1 {
+    width: 14%;
+    height: 60px;
+    border-radius: 6px;
+  }
+
+  .style {
+    width: 19%;
+  }
+
+  .chats-details {
+    top: 55px;
+    left: -491px;
+  }
+
+  .texts-1 {
+    padding-left: 169px;
+    margin-top: 2rem;
+  }
+
+  .type-here {
+    padding: 1rem;
+    left: -87px;
+  }
+
+  .fa-smile {
+    right: 164px;
+  }
+
+  .time-2 {
+    right: 0;
+  }
+
+  .users-name {
+    font-size: 1rem;
     position: relative;
-    top: 17px;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+  }
+
+  .compose {
+    bottom: -69px;
+  }
+
+  .upload {
+    right: 0;
+  }
+
+  .fa-ellipsis-h {
+    right: 70px;
+  }
+
+  .text-nav {
+    position: absolute;
+    bottom: -59px;
+    height: 75px;
+    display: inline-flex;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .style-1 {
+    width: 14%;
+    height: 60px;
+    border-radius: 6px;
+  }
+
+  .style {
+    width: 19%;
+  }
+
+  .chats-details {
+    top: 55px;
+    left: -491px;
+  }
+
+  .texts-1 {
+    padding-left: 169px;
+    margin-top: 2rem;
+  }
+
+  .type-here {
+    padding: 1rem;
+    left: -87px;
+  }
+
+  .fa-smile {
+    right: 164px;
+  }
+
+  .time-2 {
+    right: 0;
+  }
+
+  .users-name {
+    font-size: 1rem;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+  }
+
+  .compose {
+    bottom: -69px;
+  }
+
+  .upload {
+    right: 0;
+  }
+
+  .fa-ellipsis-h {
+    right: 70px;
+  }
+
+  .text-nav {
+    position: absolute;
+    bottom: -59px;
+    height: 75px;
+    display: inline-flex;
+    width: 100%;
   }
 }
 
