@@ -21,7 +21,7 @@ In this project I have used Bootstrap 4, HTML5 and CSS3 to build a job site usin
 - CSS3
 
 ## Live Demo
-[Live Demo](https://raw.githack.com/Temmarie/HTML_-_CSS_Capstone_project/feature/index.html)
+[Live Demo](https://raw.githack.com/Temmarie/HTML_-_CSS_Capstone_project/feature/html/index.html)
 
 👤 **Author**
 
