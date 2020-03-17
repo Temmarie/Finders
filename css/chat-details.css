@@ -734,6 +734,10 @@ input {
     display: inline-flex;
     width: 100%;
   }
+
+  .navbar {
+    width: 138%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -745,6 +749,10 @@ input {
 
   .style {
     width: 19%;
+  }
+
+  .navbar {
+    width: 138%;
   }
 
   .chats-details {
@@ -806,12 +814,23 @@ input {
   }
 
   .style {
-    width: 19%;
+    width: 17%;
+  }
+
+  .navbar {
+    width: 142%;
   }
 
   .chats-details {
     top: 55px;
-    left: -491px;
+    left: -446px;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    font-size: 1rem;
+    position: relative;
+    right: 30px;
   }
 
   .texts-1 {
