@@ -154,9 +154,10 @@ nav {
 
 .crown {
   height: 100%;
+  width: 100%;
 }
 
-.pop p {
+.pop article {
   font-size: 0.9rem;
   font-family: 'Open Sans', sans-serif;
   color: lightgrey;
@@ -249,6 +250,7 @@ nav {
 
 .build {
   font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .opport {
@@ -518,6 +520,7 @@ nav {
     white-space: nowrap;
     position: absolute;
     left: -8px;
+    font-weight: 600;
   }
 
   .name {
@@ -551,21 +554,30 @@ nav {
     position: absolute;
     left: 0;
   }
+
+  .scroll-icons {
+    left: 0;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    font-size: 1rem;
+    position: relative;
+    right: -18px;
+  }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .profile-sum {
     display: block;
   }
 
-  .name-card {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .previous {
     left: 55px;
+  }
+
+  .right {
+    justify-content: space-evenly;
   }
 
   .user-name {
@@ -574,6 +586,388 @@ nav {
 
   .name-card {
     display: none;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 397px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -6%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 184px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 20px;
+  }
+
+  .profile-info {
+    line-height: 1.8;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .more-people .fa-users {
+    font-size: 2.5rem;
+    color: #4e50b8;
+  }
+
+  .build {
+    white-space: nowrap;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 248px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 87px;
+    z-index: 1;
+    top: 106px;
+  }
+
+  .fa-times-circle {
+    left: 38px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .likes {
+    position: relative;
+    left: -13px;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    left: 18px;
+    font-size: 1rem;
+    position: relative;
+  }
+
+  .name {
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .text-dark {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .profile-sum {
+    display: block;
+  }
+
+  .previous {
+    left: 55px;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 397px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -6%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 184px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 20px;
+  }
+
+  .profile-info {
+    line-height: 1.8;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .more-people .fa-users {
+    font-size: 2.5rem;
+    color: #4e50b8;
+  }
+
+  .build {
+    white-space: nowrap;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 248px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 87px;
+    z-index: 1;
+    top: 106px;
+  }
+
+  .fa-times-circle {
+    left: 38px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .likes {
+    position: relative;
+    left: -13px;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    left: 18px;
+    font-size: 1rem;
+    position: relative;
+  }
+
+  .name {
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .text-dark {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .previous {
+    left: 55px;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 130%;
   }
 
   .arrow {
@@ -710,6 +1104,173 @@ nav {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .previous {
+    left: 55px;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 137%;
+    white-space: nowrap;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 40px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 540px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 240px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 30px;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: 600;
+    left: 338px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    top: 106px;
+  }
+
+  .fa-times-circle {
+    left: 63px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .crown {
+    height: 65%;
+    width: 50%;
+    position: relative;
+    left: 39px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .status-info {
     display: none;
@@ -754,6 +1315,7 @@ nav {
 
   .navbar {
     flex-wrap: nowrap;
+    width: 100%;
   }
 
   nav .fa-bars {
@@ -871,5 +1433,21 @@ nav {
     position: absolute;
     bottom: 5px;
     left: 100px;
+  }
+
+  .green {
+    width: 17.4%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
   }
 }

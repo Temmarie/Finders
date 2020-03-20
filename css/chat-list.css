@@ -753,8 +753,11 @@ input {
   .chat-header {
     box-shadow: 0 5px 10px rgb(206, 210, 231);
     margin-bottom: 1rem;
-    width: 100%;
+    width: 120%;
     padding: 1rem;
+    position: relative;
+    border-radius: 0;
+    left: -13px;
   }
 
   .chats-users {
