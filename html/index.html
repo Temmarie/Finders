@@ -16,38 +16,41 @@
 
 <body>
   <header>
-    <nav class="nav-bar navbar mb-5">
+    <nav class="navbar bg-white mb-5">
 
-      <div class="locate-comp">
+      <div class="locate-comp col-lg-2 col-xl-2 col-md-2 col-sm-2">
         <i class="far fa-compass"></i>
-        <h6 class="pl-1">Location: </h6><h5 class="active">Lagos</b> <i class="fas fa-caret-down"></i></h5>
+        <h6 class="pl-1">Location: <b class="active">Lagos</b> <i class="fas fa-caret-down"></i></h6>
       </div>
 
-      <h1 class="logo">
-        <b class=" logo1">Find</b>
-        <b class=" logo2">ers</b>
-      </h1>
-      <div class="right">
+      <div class="logo col-lg-6 col-md-6 col-xl-6 col-sm-6 col-xl-7 navbar-brand">
+        <h1 class=" logo1">Find</h1>
+        <h1 class=" logo2">ers</h1>
+      </div>
+      <div class="right col-lg-3 col-md-3 col-xl-3 col-sm-6 d-flex flex-row">
         <i class="fas fa-bars"></i> <i class="far fa-bell"></i>
         <p class="ver-bar">|</p> <i class="far fa-user"></i>
       </div>
     </nav>
   </header>
 
-  <main class="main-container">
-    <aside class=" profile-sum col-lg-3 col-md-3 col-sm-3">
-      <div class="personal-profile">
-        <div class="profile-up">
-          <img src="../images/greenhair.jfif" alt="green" class="green greenie">
-          <div class="user-name"><h5 class=" name">Ashleeh Queen</h5>
-            <b class="status">Status:</b> <b class="stat">Reading non-stop</b>
-          </div>
+  <main class="main d-flex flex-row container-fluid">
+    <aside class="col-lg-3 col-xl-3 profile-sum col-md-3">
+      <div class="personal-profile bg-white pt-3 pb-3 pl-3 pr-3">
+        <div class=" d-flex flex-row profile-up">
+          <img src="../images/greenhair.jfif" alt="green" class="pl-0 green greenie">
+          <p class="col-lg-7 col-xl-7 col-md-7 user-name"><b class="text-dark name">Ashleeh Queen</b> <br />
+            <b class="status">Status:</b> <b class="stat">Reading...</b></p>
           <i class="fas fa-cog"></i>
         </div>
-        <div class="likes">
-        <b class="likie">  <i class="fas fa-heart text-danger"></i>  250</b>
-            <button class="btn"><i class="fas fa-check-circle"></i> Get Premium</button>
+        <div class="likes col-lg-4 col-xl-4 col-md-4 d-flex flex-row mt-3">
+          <p class="pr-4 d-flex flex-row text-danger"><i class="fas fa-heart pr-2 pt-1"></i> <b
+              class="pr-3 pt-2 likie">5k</b>
+            <button class="btn">   <i class="fas fa-check-circle col-lg-2 col-md-2 col-xl-2"></i>Get Premium</button>
+
+          </p>
         </div>
+
 
       </div>
       <div class="menu-links mt-5">
@@ -71,18 +74,18 @@
       </div>
     </aside>
 
-    <section class=" mid-section col-lg-6 col-md-6 col-sm-10">
-      <div class="pictures-slide">
-        <div class="img-slide">
+    <section class="col-lg-6 mid-section col-xl-6 col-sm-12 col-md-12">
+      <div class="pictures-slide col-lg-12 col-xl-12 pl-0 col-sm-12">
+        <div class="col-lg-12 d-flex flex-row pl-0 col-xl-12 col-md-12 img-slide">
           <img src="../images/dude.jfif" class="green dude" alt="pics">
           <i class="fas fa-times-circle"></i>
 
-          <i class="fas fa-ellipsis-v"></i>
-          <img src="../images/flowergirl.jfif" class="green space" alt="pics">
-          <img src="../images/hayley.jfif" class="green space" alt="pics">
-          <img src="../images/kawaii.jfif" class="green space" alt="pics">
-          <img src="../images/noodlesboy.jfif" class="green space" alt="pics">
-          <img src="../images/random.jfif" class="green space" alt="pics">
+          <i class="fas fa-ellipsis-v mt-2 ml-2 mr-4"></i>
+          <img src="../images/flowergirl.jfif" class="green mr-2" alt="pics">
+          <img src="../images/hayley.jfif" class="green mr-2" alt="pics">
+          <img src="../images/kawaii.jfif" class="green mr-2" alt="pics">
+          <img src="../images/noodlesboy.jfif" class="green mr-2" alt="pics">
+          <img src="../images/random.jfif" class="green mr-2" alt="pics">
           <img src="../images/greenhair.jfif" class="green" alt="pics">
 
 
@@ -93,10 +96,10 @@
 
         <img src="../images/style.jfif" alt="hay" class="position-relative mt-3 bigpicture">
         <div class="d-flex flex-row">
-      
-          <h6 class="text-white miles">  <i class="fas fa-location-arrow"></i>245km</h6>
+          <i class="fas fa-location-arrow position-absolute"></i>
+          <h6 class="text-white miles position-absolute">245km</h6>
         </div>
-        <div class="scroll-icons">
+        <div class="scroll-icons container-fluid">
           <span class="previous arrow pt-1 pb-1 pl-3 pr-3 position-absolute">&lt;</span>
           <span class="heart position-absolute pt-3 pb-3 pl-3 pr-3 mid"><i class="fas fa-heart"></i></span>
           <span class="cancel position-absolute pt-3 pb-3 pl-4 pr-4 mid">X</span>
@@ -106,45 +109,42 @@
       </div>
     </section>
 
-
-    <aside class="bg-white-50 status-info">
-      <div class="popular bg-white personal-profile col-xl-12">
+    <aside class="col-lg-3 bg-white-50 status-info col-md-4">
+      <div class="popular col-lg-12 col-md-12 bg-white personal-profile col-xl-12">
         <div class="pop pt-3 pb-3">
-          <img src="../images/crown.svg" class=" crown" alt="crown">
-          <article class="float-right col-lg-9">
-            <h6 class="name"> Build your network</h6>
-            <p class="status status-1">A bigger network means more opportunities can find you!</p>
+          <img src="../images/crown.svg" class=" crown col-lg-5 col-md-5" alt="crown">
+          <article class="float-right col-lg-12 col-xl-7 col-md-7">
+            <h6 class="text-dark"> Build your network</h6><br /> A bigger network means more opportunities can find you!
           </article>
         </div>
-        <button class="btn btn-ex expand">Expand Your Network</button>
+        <button class="btn expand">Expand Your Network</button>
       </div>
-      <div class="bg-white mt-4 p-3 filter personal-profile personal-profile-1">
+      <div class="bg-white mt-4 p-3 personal-profile filter">
         <h5>Filter Search <i class="fas fa-filter-search"> </i></h5>
       </div>
 
-      <div class="bg-white mt-3 user-info personal-profile">
+      <div class="card bg-white mt-3 user-info personal-profile">
         <div class="upper container-fluid">
           <div>
             <p class="profile-name pt-3 pb-0">
-              <small class="surname status">Name Surname, Old</small>
+              <small class="surname">Name Surname, Old</small><br>
               <h4 class="profile-info pr-5 text-secondary">Karina Simons, 23</h4>
 
               <hr class="my-4">
               <div class="more-info">
                 <p class="location">
-                  <small class="surname status">Location</small><br>
+                  <small class="surname">Location</small><br>
                   <b class="profile-info info-1 text-secondary pr-5">Lagos, Nigeria </b>
                   <button class="btn btn-1"><i class="far fa-compass"></i></button>
 
                   <p>
-                    <small class="surname status">Interests</small> <br>
-                    <h6 class="profile-info info-1 text-secondary"> Front-end dev, books, tech,singing, hair, astronomy,
-                      archeology, statistics.
+                    <small class="surname">Interests</small> <br>
+                    <h6 class="profile-info info-1 text-secondary"> Front-end dev, Books, Tech,singing, hair, Astronomy,
+                      Archeology, statistics, geography, abstract, anime, cooking.
                     </h6>
-                    <br />
 
                     <p class="mb-3">
-                      <small class="surname status">Languages</small>
+                      <small class="surname">Languages</small><br>
                       <h6 class="profile-info info-1 text-secondary">English , Spanish and French</h6>
               </div>
 
@@ -154,8 +154,8 @@
               <div class="more-people">
                 <i class="fas fa-users"></i>
                 <article class="float-right col-lg-8">
-                  <h6 class="text-secondary build"> Make new contacts</h6>
-                  <b class="opport"> A bigger network means more opportunities!</b>
+                  <h6 class="text-secondary build"> Make new contacts</h6><br>
+                  <b class="opport"> A bigger network means more opportunities for you!</b>
                 </article>
               </div>
           </div>

@@ -185,9 +185,7 @@ nav {
   color: white;
   font-size: 1.2rem;
   position: absolute;
-  left: 124px;
   z-index: 1;
-  top: 106px;
 }
 
 .user-name {
@@ -425,7 +423,6 @@ input {
 .fa-check {
   color: #4e50b8;
   left: 0;
-  top: 23px;
 }
 
 .users-name {
@@ -595,9 +592,57 @@ input {
     color: white;
     font-size: 1.2rem;
     position: absolute;
-    left: 95px;
     z-index: 1;
-    top: 106px;
+    left: -6px;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .fa-search {
+    display: block;
+  }
+
+  input {
+    display: block;
+  }
+
+  .menu-links {
+    display: flex;
+  }
+
+  .personal-profile {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 2rem;
+    position: absolute;
+    font-size: 0.8rem;
+    padding-right: 1rem;
+    left: 68px;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    z-index: 1;
+    left: -6px;
+  }
+
+  .likes {
+    position: relative;
+    left: -14px;
   }
 
   .navbar {
@@ -622,6 +667,26 @@ input {
 }
 
 @media screen and (max-width: 992px) {
+  .btn {
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+
+  .likes {
+    position: relative;
+    left: -11px;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    left: -6px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 991px) {
   .text-nav {
     display: none;
   }
@@ -629,18 +694,16 @@ input {
   .btn {
     background: #4e50b8;
     border-radius: 7px;
-    padding-left: 1rem;
-    padding-right: 0.8rem;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
     font-size: 0.8rem;
   }
 
   .fa-check-circle {
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
     position: absolute;
-    left: 102px;
-    z-index: 1;
-    top: 108px;
+    left: -61px;
   }
 
   .navbar {
@@ -661,6 +724,81 @@ input {
 
   .personal-profile {
     display: flex;
+  }
+
+  .style-1 {
+    width: 15%;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    position: absolute;
+    font-size: 1rem;
+    right: -220px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .text-nav {
+    display: none;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .fa-search {
+    display: block;
+  }
+
+  input {
+    display: block;
+  }
+
+  .menu-links {
+    display: flex;
+  }
+
+  .personal-profile {
+    display: flex;
+  }
+
+  .style-1 {
+    width: 15%;
+  }
+
+  .fa-cog {
+    left: 195px;
+  }
+
+  .likes {
+    position: relative;
+    left: -33px;
+  }
+
+  .alerts {
+    position: relative;
+    left: 0;
+  }
+
+  .fa-check-circle {
+    left: -40px;
+    top: 8px;
+  }
+
+  .fa-heart {
+    font-size: 18px;
+    position: relative;
+    left: 4px;
+    top: 3px;
   }
 }
 
@@ -688,6 +826,14 @@ input {
 
   .input-type {
     display: none;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
   }
 
   .style-1 {
@@ -742,22 +888,59 @@ input {
     top: 1px;
     box-shadow: 0 5px 10px rgb(206, 210, 231);
   }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .profile-up p {
+    font-size: 0.9rem;
+    white-space: unset;
+  }
+
+  .fa-cog {
+    left: 152px;
+  }
+
+  .likes {
+    position: relative;
+    left: -33px;
+  }
+
+  .alerts {
+    background: #f0916e;
+    font-size: 0.8rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    vertical-align: baseline;
+    cursor: pointer;
+    position: relative;
+    left: -32px;
+  }
+
+  .fa-check-circle {
+    left: -40px;
+    top: 8px;
+  }
+
+  .fa-heart {
+    font-size: 18px;
+    position: relative;
+    left: 4px;
+    top: 3px;
+  }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 650px) {
   /* chat-list */
-  .navbar {
-    display: none;
-  }
 
   .chat-header {
     box-shadow: 0 5px 10px rgb(206, 210, 231);
     margin-bottom: 1rem;
-    width: 120%;
+    width: 100%;
     padding: 1rem;
-    position: relative;
-    border-radius: 0;
-    left: -13px;
   }
 
   .chats-users {
@@ -776,14 +959,26 @@ input {
     display: none;
   }
 
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 0;
+    font-size: 0.8rem;
+  }
+
   .style-1 {
     width: 19%;
     height: 67px;
   }
 
+  .users-name {
+    margin-top: 1rem;
+  }
+
   .text-links {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4.75rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     position: relative;
@@ -825,6 +1020,124 @@ input {
     box-shadow: 0 5px 10px rgb(206, 210, 231);
   }
 
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .profile-up p {
+    font-size: 0.9rem;
+    white-space: unset;
+  }
+
+  .fa-cog {
+    left: 133px;
+  }
+
+  .likes {
+    position: relative;
+    left: -33px;
+  }
+
+  .fa-check-circle {
+    left: -40px;
+    top: 8px;
+  }
+
+  .fa-heart {
+    font-size: 18px;
+    position: relative;
+    left: 4px;
+    top: 3px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* chat-list */
+  .navbar {
+    display: none;
+  }
+
+  .chat-header {
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    margin-bottom: 1rem;
+    width: 137%;
+    padding: 1rem;
+    position: relative;
+    border-radius: 0;
+    left: -13px;
+  }
+
+  .chats-users {
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    width: 136%;
+    overflow-x: hidden;
+    margin-left: -10px;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .personal-profile {
+    display: none;
+  }
+
+  .input-type {
+    display: none;
+  }
+
+  .style-1 {
+    width: 15%;
+    height: 67px;
+  }
+
+  .text-links {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+    width: 100%;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 30px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    font-size: 30px;
+    color: lightgrey;
+    padding-left: 30px;
+  }
+
+  .fa-comments {
+    font-size: 30px;
+    color: lightgrey;
+  }
+
+  .fa-user {
+    font-size: 30px;
+    color: lightgrey;
+  }
+
+  .text-links .fa-bookmark {
+    font-size: 30px;
+    color: lightgrey;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+  }
+
   .main {
     flex-wrap: wrap;
   }
@@ -839,15 +1152,16 @@ input {
     font-family: 'Open sans', sans-serif;
     position: relative;
     top: -65px;
-    left: 105px;
+    left: 140px;
     margin-top: 1rem;
   }
 
   .text-nav {
     position: relative;
     top: 0;
-    display: block;
+    display: flex;
     background: white;
     width: 100%;
+    left: 19px;
   }
 }
