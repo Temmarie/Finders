@@ -68,8 +68,8 @@ nav {
 }
 
 .green {
-  width: 12.4%;
-  height: 65px;
+  width: 78px;
+  height: 78px;
   border: 1px solid transparent;
   border-radius: 10px;
   transition: box-shadow, ease-in, 1s;
@@ -81,11 +81,36 @@ nav {
 }
 
 .greenie {
-  width: 30%;
+  width: 65px;
 }
 
 .profile-sum {
   width: 100%;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-link:hover {
+  text-decoration: none;
+}
+
+.clicked:link {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.clicked:hover {
+  text-decoration: none;
+}
+
+.clicked:visited {
+  color: #4e50b8;
+}
+
+.clicked:active {
+  color: #7173d1;
 }
 
 .btn {
@@ -93,6 +118,7 @@ nav {
   border-radius: 7px;
   padding-left: 3rem;
   padding-right: 3rem;
+  color: white;
 }
 
 .fa-ellipsis-v {
@@ -4155,6 +4181,7 @@ nav {
 
   .green {
     width: 16%;
+    height: 60px;
   }
 
   .bigpicture {

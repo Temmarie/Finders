@@ -75,7 +75,7 @@ nav {
 }
 
 .greenie {
-  width: 30%;
+  width: 65px;
 }
 
 .profile-sum {
@@ -84,11 +84,37 @@ nav {
   background: rgb(252, 252, 252);
 }
 
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-link:hover {
+  text-decoration: none;
+}
+
+.clicked:link {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.clicked:hover {
+  text-decoration: none;
+}
+
+.clicked:visited {
+  color: #4e50b8;
+}
+
+.clicked:active {
+  color: #7173d1;
+}
+
 .btn {
   background: #4e50b8;
   border-radius: 7px;
   padding-left: 3rem;
   padding-right: 3rem;
+  color: white;
 }
 
 .fa-ellipsis-v {
@@ -951,7 +977,7 @@ input {
   }
 
   .navbar {
-    width: 138%;
+    width: 146%;
   }
 
   .chats-details {
@@ -1008,7 +1034,7 @@ input {
   }
 
   .fa-ellipsis-h {
-    right: 9px;
+    right: 55px;
   }
 
   .text-nav {
