@@ -2234,6 +2234,11 @@ nav {
     margin-right: 1rem;
   }
 
+  .navbar-brand {
+    position: relative;
+    left: 120px;
+  }
+
   .fa-user,
   .vert-bar {
     display: none;
@@ -2325,10 +2330,6 @@ nav {
     display: block;
   }
 
-  .navbar-brand {
-    padding-left: 260px;
-  }
-
   .scroll-icons {
     display: none;
   }
@@ -2343,7 +2344,7 @@ nav {
     width: 50%;
     border: 1px solid transparent;
     border-radius: 8px;
-    bottom: -420px;
+    bottom: -362px;
     display: block;
     box-shadow: 0 -7px #7173d1;
   }
@@ -2412,7 +2413,7 @@ nav {
     color: #f0916e;
     font-size: 1.5rem;
     position: absolute;
-    left: 48px;
+    left: 65px;
     top: 10px;
   }
 
@@ -2574,6 +2575,11 @@ nav {
   .green:nth-child(7) {
     display: none;
   }
+
+  .navbar-brand {
+    position: relative;
+    left: 120px;
+  }
 }
 
 @media screen and (max-width: 566px) {
@@ -2594,7 +2600,7 @@ nav {
     color: #f0916e;
     font-size: 1.5rem;
     position: absolute;
-    left: 48px;
+    left: 65px;
     top: 10px;
   }
 
@@ -2628,14 +2634,14 @@ nav {
 
   nav .fa-bars {
     position: relative;
-    right: 147px;
+    right: 137px;
     color: black;
     font-size: 30px;
   }
 
   nav .fa-bell {
     position: relative;
-    left: 142px;
+    left: 199px;
     color: black;
     font-size: 30px;
   }
@@ -2655,7 +2661,7 @@ nav {
   }
 
   .text-links {
-    padding-left: 3rem;
+    padding-left: 2.7rem;
     padding-right: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -2758,7 +2764,7 @@ nav {
   }
 }
 
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
   .status-info {
     display: none;
   }
@@ -2776,263 +2782,55 @@ nav {
     color: #f0916e;
     font-size: 1.5rem;
     position: absolute;
-    left: 140px;
+    left: 56px;
     top: 10px;
-  }
-
-  .dude {
-    margin-right: 1rem;
   }
 
   .fa-user,
   .vert-bar {
     display: none;
-  }
-
-  .right {
-    flex-direction: row-reverse;
-  }
-
-  .navbar {
-    flex-wrap: nowrap;
-    width: 177.5%;
-  }
-
-  nav .fa-bars {
-    position: relative;
-    right: 440px;
-  }
-
-  nav .fa-bell {
-    position: relative;
-    left: 142px;
-  }
-
-  .profile-info {
-    white-space: nowrap;
-    line-height: 0;
-  }
-
-  .mid-section {
-    height: 670px;
-    position: relative;
-    width: 100%;
-    left: -16px;
-  }
-
-  .text-nav {
-    display: flex;
-    position: absolute;
-    height: 60px;
-    width: 88%;
-    left: 9px;
-    top: 1200px;
-  }
-
-  .text-links {
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-    top: 17px;
-  }
-
-  .links-1 {
-    border: 1px solid transparent;
-    background: #4e50b8;
-    border-radius: 6px;
-    position: relative;
-    top: 1px;
-    box-shadow: 0 5px 10px rgb(206, 210, 231);
-    padding-right: 2.2rem;
-    padding-left: 2.2rem;
-  }
-
-  .text-links .fa-layer-group {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-comments {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-bookmark {
-    font-size: 20px;
-    color: lightgrey;
-  }
-
-  .fa-link {
-    color: white;
   }
 
   .fa-user {
     font-size: 20px;
     color: lightgrey;
-    display: inline;
-  }
-
-  .scroll-icons {
     display: none;
   }
 
-  .locate-comp {
-    display: none;
-  }
-
-  .name-card {
-    left: 207px;
-    height: 45%;
-    width: 90%;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    bottom: -796px;
+  .text-nav .fa-user {
     display: block;
-    box-shadow: 0 -7px #7173d1;
-  }
-
-  .name-card-small {
-    color: lightgrey;
-    font-size: 1rem;
-  }
-
-  .name-card-h4 {
-    font-size: 2rem;
-  }
-
-  .fa-user-plus {
-    position: absolute;
-    right: 0;
-    top: 9px;
-    padding-right: 12px;
-    font-size: 1.6rem;
-    color: #f0916e;
-  }
-
-  .fa-circle {
-    font-size: 0.5rem;
-    color: rgb(28, 184, 28);
-    position: absolute;
-    top: 12px;
-    padding-left: 3px;
-  }
-
-  .learn {
-    font-size: 1rem;
-    color: lightgrey;
-    position: absolute;
-    bottom: 5px;
-    left: 155px;
-  }
-
-  .green {
-    width: 37.4%;
-    height: 105px;
-  }
-
-  .miles {
-    top: 25%;
-  }
-
-  .fa-location-arrow {
-    bottom: 72%;
-  }
-
-  .bigpicture {
-    width: 195%;
-  }
-
-  .green:nth-child(6) {
-    display: none;
-  }
-
-  .green:nth-child(7) {
-    display: none;
-  }
-
-  .fa-ellipsis-v {
-    left: 0;
-  }
-} */
-
-@media screen and (max-width: 500px) {
-  .status-info {
-    display: none;
-  }
-
-  .name-card-h4 {
-    font-size: 1.3rem;
-  }
-
-  .mid-section {
-    height: 670px;
-    position: relative;
-    width: 100%;
-    left: 0;
-    margin-left: -35px;
-  }
-
-  .profile-sum {
-    display: none;
-  }
-
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .fa-times-circle {
-    color: #f0916e;
-    font-size: 1.5rem;
-    position: absolute;
-    left: 87px;
-    top: 10px;
   }
 
   .dude {
     margin-right: 1rem;
   }
 
-  .fa-user,
-  .vert-bar {
-    display: none;
-  }
-
   .right {
-    position: relative;
     flex-direction: row-reverse;
-    left: -72px;
   }
 
   .navbar {
     flex-wrap: nowrap;
-    width: 203%;
+    width: 100%;
   }
 
   nav .fa-bars {
     position: relative;
-    right: 274px;
-    font-size: 30px;
+    right: 120px;
     color: black;
+    font-size: 30px;
   }
 
   nav .fa-bell {
     position: relative;
-    left: 144px;
-    font-size: 30px;
+    left: 199px;
     color: black;
+    font-size: 30px;
   }
 
   .profile-info {
     white-space: nowrap;
     line-height: 0;
-  }
-
-  .navbar-brand {
-    position: relative;
-    left: 122px;
   }
 
   .text-nav {
@@ -3041,20 +2839,11 @@ nav {
     height: 60px;
     width: 88%;
     left: 14px;
-    top: 920px;
-  }
-
-  .fa-user {
-    display: none;
-  }
-
-  .text-nav .fa-user {
-    display: block;
-    font-size: 35px;
+    top: 709px;
   }
 
   .text-links {
-    padding-left: 3.5rem;
+    padding-left: 2rem;
     padding-right: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -3074,237 +2863,21 @@ nav {
   }
 
   .text-links .fa-layer-group {
-    font-size: 35px;
+    font-size: 20px;
     color: lightgrey;
   }
 
   .fa-comments {
-    font-size: 35px;
+    font-size: 20px;
     color: lightgrey;
   }
 
   .fa-bookmark {
-    font-size: 35px;
+    font-size: 20px;
     color: lightgrey;
   }
 
   .fa-link {
-    font-size: 35px;
-    color: white;
-  }
-
-  .scroll-icons {
-    display: none;
-  }
-
-  .locate-comp {
-    display: none;
-  }
-
-  .name-card {
-    left: 120px;
-    height: 36%;
-    width: 120%;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    bottom: -463px;
-    display: block;
-    box-shadow: 0 -7px #7173d1;
-  }
-
-  .name-card-small {
-    color: lightgrey;
-  }
-
-  .fa-user-plus {
-    position: absolute;
-    right: 0;
-    top: 9px;
-    padding-right: 12px;
-    font-size: 1.6rem;
-    color: #f0916e;
-  }
-
-  .fa-circle {
-    font-size: 0.5rem;
-    color: rgb(28, 184, 28);
-    position: absolute;
-    top: 12px;
-    padding-left: 3px;
-  }
-
-  .learn {
-    font-size: 0.7rem;
-    color: lightgrey;
-    position: absolute;
-    bottom: 5px;
-    left: 100px;
-  }
-
-  .green {
-    width: 45.4%;
-    height: 70px;
-  }
-
-  .bigpicture {
-    width: 235%;
-    height: 600px;
-  }
-
-  .green:nth-child(6) {
-    display: none;
-  }
-
-  .green:nth-child(7) {
-    display: none;
-  }
-
-  .fa-ellipsis-v {
-    left: 0;
-  }
-
-  .fa-location-arrow {
-    bottom: 80%;
-  }
-
-  .miles {
-    top: 17%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .status-info {
-    display: none;
-  }
-
-  .name-card-h4 {
-    font-size: 1.3rem;
-  }
-
-  .mid-section {
-    height: 670px;
-    position: relative;
-    width: 100%;
-    left: 0;
-    margin-left: -10px;
-  }
-
-  .profile-sum {
-    display: none;
-  }
-
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .fa-times-circle {
-    color: #f0916e;
-    font-size: 1.5rem;
-    position: absolute;
-    left: 87px;
-    top: 10px;
-  }
-
-  .dude {
-    margin-right: 1rem;
-  }
-
-  .fa-user,
-  .vert-bar {
-    display: none;
-  }
-
-  .right {
-    position: relative;
-    flex-direction: row-reverse;
-    left: -72px;
-  }
-
-  .navbar {
-    flex-wrap: nowrap;
-    width: 203%;
-  }
-
-  nav .fa-bars {
-    position: fixed;
-    font-size: 30px;
-    color: black;
-    left: 53px;
-  }
-
-  nav .fa-bell {
-    position: relative;
-    left: 144px;
-    font-size: 30px;
-    color: black;
-  }
-
-  .profile-info {
-    white-space: nowrap;
-    line-height: 0;
-  }
-
-  .navbar-brand {
-    position: relative;
-    left: 122px;
-  }
-
-  .text-nav {
-    display: flex;
-    position: absolute;
-    height: 60px;
-    width: 88%;
-    left: 14px;
-    top: 920px;
-  }
-
-  .fa-user {
-    display: none;
-  }
-
-  .text-nav .fa-user {
-    display: block;
-    font-size: 35px;
-  }
-
-  .text-links {
-    padding-left: 3.5rem;
-    padding-right: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-    top: 17px;
-  }
-
-  .links-1 {
-    border: 1px solid transparent;
-    background: #4e50b8;
-    border-radius: 6px;
-    position: relative;
-    top: 1px;
-    box-shadow: 0 5px 10px rgb(206, 210, 231);
-    padding-right: 2.2rem;
-    padding-left: 2.2rem;
-  }
-
-  .text-links .fa-layer-group {
-    font-size: 35px;
-    color: lightgrey;
-  }
-
-  .fa-comments {
-    font-size: 35px;
-    color: lightgrey;
-  }
-
-  .fa-bookmark {
-    font-size: 35px;
-    color: lightgrey;
-  }
-
-  .fa-link {
-    font-size: 35px;
     color: white;
   }
 
@@ -3318,11 +2891,11 @@ nav {
 
   .name-card {
     left: 150px;
-    height: 36%;
-    width: 120%;
+    height: 30%;
+    width: 50%;
     border: 1px solid transparent;
     border-radius: 8px;
-    bottom: -463px;
+    bottom: -301px;
     display: block;
     box-shadow: 0 -7px #7173d1;
   }
@@ -3357,13 +2930,11 @@ nav {
   }
 
   .green {
-    width: 45.4%;
-    height: 70px;
+    width: 17.4%;
   }
 
   .bigpicture {
-    width: 235%;
-    height: 600px;
+    width: 100%;
   }
 
   .green:nth-child(6) {
@@ -3373,39 +2944,19 @@ nav {
   .green:nth-child(7) {
     display: none;
   }
-
-  .fa-ellipsis-v {
-    left: 0;
-  }
-
-  .fa-location-arrow {
-    bottom: 80%;
-  }
-
-  .miles {
-    top: 17%;
-  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .status-info {
     display: none;
   }
 
-  .name-card-h4 {
-    font-size: 1.3rem;
+  .profile-sum {
+    display: none;
   }
 
   .mid-section {
-    height: 670px;
-    position: relative;
-    width: 100%;
-    left: 0;
-    margin-left: -29px;
-  }
-
-  .profile-sum {
-    display: none;
+    padding-left: 13px;
   }
 
   .main {
@@ -3417,12 +2968,8 @@ nav {
     color: #f0916e;
     font-size: 1.5rem;
     position: absolute;
-    left: 75px;
+    left: 54px;
     top: 10px;
-  }
-
-  .dude {
-    margin-right: 1rem;
   }
 
   .fa-user,
@@ -3430,39 +2977,46 @@ nav {
     display: none;
   }
 
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
   .right {
-    position: relative;
     flex-direction: row-reverse;
-    left: -72px;
   }
 
   .navbar {
     flex-wrap: nowrap;
-    width: 198%;
+    width: 100%;
   }
 
   nav .fa-bars {
     position: relative;
-    right: 274px;
-    font-size: 30px;
+    right: 108px;
     color: black;
+    font-size: 30px;
   }
 
   nav .fa-bell {
     position: relative;
-    left: 144px;
-    font-size: 30px;
+    left: 199px;
     color: black;
+    font-size: 30px;
   }
 
   .profile-info {
     white-space: nowrap;
     line-height: 0;
-  }
-
-  .navbar-brand {
-    position: relative;
-    left: 122px;
   }
 
   .text-nav {
@@ -3471,19 +3025,12 @@ nav {
     height: 60px;
     width: 88%;
     left: 14px;
-  }
-
-  .fa-user {
-    display: none;
-  }
-
-  .text-nav .fa-user {
-    display: block;
+    top: 709px;
   }
 
   .text-links {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2.4rem;
+    padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     position: relative;
@@ -3529,12 +3076,223 @@ nav {
   }
 
   .name-card {
-    left: 106px;
-    height: 36%;
-    width: 120%;
+    left: 118px;
+    height: 30%;
+    width: 50%;
     border: 1px solid transparent;
     border-radius: 8px;
-    bottom: -463px;
+    bottom: -276px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 0;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 17.4%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 46px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 74px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 687px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 115px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -245px;
     display: block;
     box-shadow: 0 -7px #7173d1;
   }
@@ -3569,13 +3327,11 @@ nav {
   }
 
   .green {
-    width: 45.4%;
-    height: 70px;
+    width: 16.8%;
   }
 
   .bigpicture {
-    width: 235%;
-    height: 600px;
+    width: 100%;
   }
 
   .green:nth-child(6) {
@@ -3585,16 +3341,1676 @@ nav {
   .green:nth-child(7) {
     display: none;
   }
+}
+
+@media screen and (max-width: 430px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 46px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 74px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
 
   .fa-ellipsis-v {
-    left: 0;
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 687px;
   }
 
   .fa-location-arrow {
-    bottom: 80%;
+    left: 24px;
   }
 
   .miles {
-    top: 17%;
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 115px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -245px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16.8%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 33px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 45px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 605px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1.5rem;
+    padding-right: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 72px;
+    height: 30%;
+    width: 62%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -167px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 33px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 25px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 605px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1.2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 72px;
+    height: 30%;
+    width: 62%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -167px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 104%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 564px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1rem;
+    padding-right: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -115px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 104%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 564px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -115px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 106%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 112%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 564px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -115px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 106%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 255px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 63px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 112%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 600px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -178px;
+    display: block;
+    white-space: nowrap;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+    display: none;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 55px;
+  }
+
+  .green {
+    width: 16%;
+    height: 48px;
+  }
+
+  .bigpicture {
+    width: 106%;
+    height: 350px;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 239px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 63px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 116%;
+  }
+
+  .name-top {
+    padding-top: 6px;
+    margin-left: -11px;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 600px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -178px;
+    display: block;
+    white-space: nowrap;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+    display: none;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 55px;
+  }
+
+  .green {
+    width: 16%;
+    height: 48px;
+  }
+
+  .bigpicture {
+    width: 106%;
+    height: 350px;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
   }
 }
