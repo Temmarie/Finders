@@ -1,0 +1,5043 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: rgb(252, 252, 252);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(252, 252, 252);
+}
+
+nav {
+  width: 100%;
+  color: lightgrey;
+}
+
+.active {
+  font-weight: 100;
+  color: grey;
+}
+
+.right {
+  color: lightgrey;
+}
+
+.logo {
+  transition: box-shadow, ease-in, 2s;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo .logo1 {
+  color: #4e50b8;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  padding-top: 0;
+  align-items: center;
+  padding-bottom: 0;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.fa-bars,
+.fa-bell,
+.ver-bar,
+.fa-user {
+  padding-right: 1.5rem;
+}
+
+.logo .logo2 {
+  color: #f0916e;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.green {
+  width: 78px;
+  height: 78px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: box-shadow, ease-in, 1s;
+}
+
+.green:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 10px #4e50b8;
+}
+
+.greenie {
+  width: 65px;
+}
+
+.profile-sum {
+  width: 100%;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-link:hover {
+  text-decoration: none;
+}
+
+.clicked:link {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.clicked:hover {
+  text-decoration: none;
+}
+
+.clicked:visited {
+  color: #4e50b8;
+}
+
+.clicked:active {
+  color: #7173d1;
+}
+
+.btn {
+  background: #4e50b8;
+  border-radius: 7px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: white;
+}
+
+.fa-ellipsis-v {
+  color: lightgrey;
+  font-size: 1.5rem;
+  position: relative;
+  top: 13px;
+}
+
+.fa-times-circle {
+  color: #f0916e;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 61px;
+  top: 10px;
+}
+
+.profile-up p {
+  font-size: 0.9rem;
+}
+
+.mid-section {
+  height: 670px;
+  width: 100%;
+}
+
+.personal-profile {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: box-shadow, ease-in, 1s;
+  box-shadow: 0 5px 10px rgb(206, 210, 231);
+  padding-bottom: 17px;
+}
+
+.personal-profile:hover {
+  box-shadow: 0 5px 10px #4e50b8;
+}
+
+.links li {
+  font-size: 1rem;
+  line-height: 2;
+  font-family: 'Open Sans', sans-serif;
+  white-space: nowrap;
+}
+
+.links li a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.alerts {
+  background: #f0916e;
+  font-size: 0.8rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+.crown {
+  height: 100%;
+  width: 100%;
+}
+
+.pop article {
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+  color: lightgrey;
+}
+
+.expand {
+  left: 5px;
+  position: relative;
+  top: 4px;
+}
+
+.fa-heart {
+  font-size: 25px;
+}
+
+.fa-cog {
+  color: lightgrey;
+  font-size: 1rem;
+}
+
+.fa-check-circle {
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 69px;
+}
+
+.user-name {
+  white-space: nowrap;
+}
+
+.user-name .status {
+  font-weight: 100;
+  color: grey;
+  font-size: 16px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.user-name .stat {
+  color: #4e50b8;
+  font-weight: 100;
+  text-decoration: lightgrey underline;
+}
+
+.surname {
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.profile-info {
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.info-1 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.my-4 {
+  margin-top: 0;
+  margin-bottom: 1.3rem !important;
+}
+
+.view-page {
+  font-size: 0.8rem;
+  color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow, ease-in, 1s;
+}
+
+.view-page:hover {
+  box-shadow: 0 5px 10px lightgrey;
+}
+
+.more-people .fa-users {
+  font-size: 4rem;
+  color: #4e50b8;
+}
+
+.build {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.opport {
+  font-weight: 100;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.bigpicture {
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #b5b6ff;
+  transition: box-shadow, ease-in, 1s;
+}
+
+.bigpicture:hover {
+  box-shadow: 0 10px 12px #4e50b8;
+}
+
+.fa-location-arrow {
+  font-size: 26px;
+  z-index: 0;
+  left: 39px;
+  bottom: 80%;
+  color: white;
+}
+
+.scroll-icons {
+  position: relative;
+  top: 20%;
+  z-index: 0;
+  left: 13%;
+  display: flex;
+  flex-direction: row;
+}
+
+.miles {
+  font-size: 14px;
+  z-index: 0;
+  left: 70px;
+  top: 17%;
+  font-weight: 700;
+}
+
+.previous {
+  left: 55px;
+}
+
+.arrow {
+  z-index: 0;
+  color: lightgrey;
+  font-size: 40px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: white;
+  bottom: 35px;
+}
+
+.next {
+  float: right;
+  left: 540px;
+}
+
+.text-nav {
+  display: none;
+}
+
+.heart {
+  color: white;
+  border: 1px solid transparent;
+  background: #4e50b8;
+  border-radius: 6px;
+  left: 240px;
+}
+
+.mid {
+  bottom: 30px;
+  z-index: 0;
+}
+
+.heart .fa-heart {
+  font-size: 30px;
+}
+
+.cancel {
+  color: white;
+  border: 1px solid transparent;
+  background: #f0916e;
+  border-radius: 6px;
+  font-size: 30px;
+  font-weight: 600;
+  left: 338px;
+}
+
+.name-top {
+  padding-top: 6px;
+}
+
+.name-card {
+  left: 168px;
+  height: 40%;
+  width: 30%;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  bottom: -425px;
+}
+
+.name-card-h4 {
+  font-size: 1rem;
+}
+
+.name-card-small {
+  font-size: 0.8rem;
+}
+
+.fa-user-plus {
+  position: absolute;
+  right: 0;
+  top: 9px;
+  padding-right: 12px;
+  font-size: 1.6rem;
+  color: #f0916e;
+}
+
+.fa-circle {
+  font-size: 0.5rem;
+  color: rgb(28, 184, 28);
+  position: absolute;
+}
+
+.learn {
+  font-size: 0.7rem;
+  color: lightgrey;
+}
+
+.timer {
+  font-size: 0.6rem;
+  color: lightgrey;
+  position: absolute;
+  right: 10px;
+}
+
+.chats-details {
+  left: 319px;
+  bottom: 633px;
+  background: rgb(248, 248, 248);
+}
+
+.curly {
+  width: 7%;
+  height: 100%;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+
+.time-2 {
+  font-size: 0.6rem;
+  color: lightgrey;
+  position: absolute;
+  top: 48px;
+  left: 301px;
+}
+
+.time-3 {
+  left: 513px;
+}
+
+.texts-1 {
+  padding-left: 272px;
+}
+
+.curly-1 {
+  width: 12%;
+}
+
+.mes-1 {
+  font-size: 0.8rem;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  background: lightgrey;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  position: relative;
+  bottom: 18px;
+}
+
+.text-links {
+  padding-left: 2.76rem;
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  top: 17px;
+}
+
+.text-links .fa-layer-group {
+  font-size: 20px;
+  color: lightgrey;
+}
+
+.fa-envelope-open-text {
+  font-size: 20px;
+  color: lightgrey;
+}
+
+.fa-bookmark {
+  font-size: 20px;
+  color: lightgrey;
+}
+
+.locate-comp {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  cursor: pointer;
+  box-shadow: 0 5px 10px lightgrey;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 1024px) {
+  .profile-sum {
+    display: block;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1.4rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .btn-1 {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.4rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .fa-times-circle {
+    left: 42px;
+  }
+
+  .text-dark {
+    white-space: nowrap;
+    position: absolute;
+    left: -8px;
+    font-weight: 600;
+  }
+
+  .name {
+    white-space: nowrap;
+    position: absolute;
+    left: 17px;
+  }
+
+  .fa-ellipsis-v {
+    left: 8px;
+  }
+
+  .heart {
+    left: 169px;
+  }
+
+  .cancel {
+    left: 251px;
+  }
+
+  .next {
+    left: 366px;
+  }
+
+  .more-people .fa-users {
+    font-size: 3rem;
+  }
+
+  .build {
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+
+  .scroll-icons {
+    left: 0;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    font-size: 1rem;
+    position: relative;
+    right: -18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .profile-sum {
+    display: block;
+  }
+
+  .previous {
+    left: 55px;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 397px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -6%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 184px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 20px;
+  }
+
+  .profile-info {
+    line-height: 1.8;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .more-people .fa-users {
+    font-size: 2.5rem;
+    color: #4e50b8;
+  }
+
+  .build {
+    white-space: nowrap;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 248px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 38px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .likes {
+    position: relative;
+    left: -13px;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    left: 18px;
+    font-size: 1rem;
+    position: relative;
+  }
+
+  .name {
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .text-dark {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .profile-sum {
+    display: block;
+  }
+
+  .previous {
+    left: 55px;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 397px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -6%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 184px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 20px;
+  }
+
+  .profile-info {
+    line-height: 1.8;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .more-people .fa-users {
+    font-size: 2.5rem;
+    color: #4e50b8;
+  }
+
+  .build {
+    white-space: nowrap;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 248px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 38px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .likes {
+    position: relative;
+    left: -13px;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    left: 18px;
+    font-size: 1rem;
+    position: relative;
+  }
+
+  .name {
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .text-dark {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .profile-sum {
+    display: block;
+  }
+
+  .profile-up .greenie {
+    width: 25%;
+    height: 40px;
+  }
+
+  .previous {
+    left: 125px;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .fa-heart {
+    font-size: 18px;
+  }
+
+  .likes {
+    left: -30px;
+    position: relative;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 154%;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 50px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 700px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -6%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 350px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 50px;
+  }
+
+  .profile-info {
+    line-height: 1.8;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .more-people .fa-users {
+    font-size: 2.5rem;
+    color: #4e50b8;
+  }
+
+  .build {
+    white-space: nowrap;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 50px;
+    font-weight: 600;
+    left: 445px;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .likes p .btn {
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+  }
+
+  /* .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  } */
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 89px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .mid-section {
+    padding-left: 43px;
+  }
+
+  .alerts {
+    position: absolute;
+  }
+
+  .green {
+    width: 13%;
+  }
+
+  .miles {
+    left: 77px;
+  }
+
+  .fa-location-arrow {
+    left: 49px;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    left: 18px;
+    font-size: 1rem;
+    position: relative;
+  }
+
+  .name {
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .text-dark {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .profile-sum {
+    display: block;
+  }
+
+  .profile-up .greenie {
+    width: 25%;
+    height: 40px;
+  }
+
+  .previous {
+    left: 80px;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .fa-heart {
+    font-size: 18px;
+  }
+
+  .likes {
+    left: -30px;
+    position: relative;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 154%;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 50px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 650px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -6%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 316px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 50px;
+  }
+
+  .profile-info {
+    line-height: 1.8;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .more-people .fa-users {
+    font-size: 2.5rem;
+    color: #4e50b8;
+  }
+
+  .build {
+    white-space: nowrap;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 50px;
+    font-weight: 600;
+    left: 437px;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .likes p .btn {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+
+  /* .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  } */
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 76px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .mid-section {
+    padding-left: 43px;
+  }
+
+  .alerts {
+    position: absolute;
+    left: 150px;
+  }
+
+  .green {
+    width: 13%;
+  }
+
+  .miles {
+    left: 77px;
+  }
+
+  .fa-location-arrow {
+    left: 49px;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    left: 18px;
+    font-size: 1rem;
+    position: relative;
+  }
+
+  .name {
+    white-space: unset;
+    font-weight: 700;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .text-dark {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .profile-sum {
+    display: none;
+  }
+
+  .previous {
+    left: 0;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 130%;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 430px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: 18%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 184px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 20px;
+  }
+
+  .profile-info {
+    line-height: 1.8;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .more-people .fa-users {
+    font-size: 2.5rem;
+    color: #4e50b8;
+  }
+
+  .build {
+    white-space: nowrap;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 248px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 75px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .likes {
+    position: relative;
+    left: -13px;
+  }
+
+  .fa-cog {
+    color: lightgrey;
+    left: 18px;
+    font-size: 1rem;
+    position: relative;
+  }
+
+  .name {
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .text-dark {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .previous {
+    left: 55px;
+  }
+
+  .right {
+    justify-content: space-evenly;
+    position: relative;
+    left: -152px;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 135%;
+    flex-wrap: nowrap;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 40px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 540px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 240px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 30px;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: 600;
+    left: 338px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 72px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .crown {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .previous {
+    left: 55px;
+  }
+
+  .right {
+    justify-content: space-evenly;
+    position: relative;
+    left: -152px;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 137%;
+    flex-wrap: nowrap;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 40px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 540px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -3%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 240px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 30px;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: 600;
+    left: 338px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 72px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .crown {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .previous {
+    left: 55px;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 140%;
+    white-space: nowrap;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 40px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 540px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 240px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 30px;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: 600;
+    left: 338px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 63px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .locate-comp {
+    display: flex;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .crown {
+    height: 65%;
+    width: 50%;
+    position: relative;
+    left: 39px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .previous {
+    left: 55px;
+  }
+
+  .user-name {
+    white-space: unset;
+  }
+
+  .name-card {
+    display: none;
+  }
+
+  .navbar {
+    width: 142%;
+    white-space: nowrap;
+  }
+
+  .arrow {
+    z-index: 0;
+    color: lightgrey;
+    font-size: 40px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: white;
+    bottom: 35px;
+  }
+
+  .next {
+    float: right;
+    left: 468px;
+  }
+
+  .scroll-icons {
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    left: -30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-nav {
+    display: none;
+  }
+
+  .heart {
+    color: white;
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    left: 240px;
+  }
+
+  .mid {
+    bottom: 30px;
+    z-index: 0;
+  }
+
+  .heart .fa-heart {
+    font-size: 30px;
+  }
+
+  .cancel {
+    color: white;
+    border: 1px solid transparent;
+    background: #f0916e;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: 600;
+    left: 338px;
+  }
+
+  .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-info .btn {
+    background: #4e50b8;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fa-check-circle {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .fa-times-circle {
+    left: 63px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .pictures-slide .mr-2 {
+    margin-right: 0.8rem;
+  }
+
+  .dude {
+    margin-right: 0;
+  }
+
+  .links li a {
+    padding-right: 0;
+  }
+
+  .fa-bars {
+    right: 514px;
+  }
+
+  .fa-bell {
+    left: 80px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .location {
+    white-space: nowrap;
+  }
+
+  .more-people {
+    display: flex;
+  }
+
+  .ver-bar {
+    display: none;
+  }
+
+  .fa-bars,
+  .fa-bell,
+  .fa-user {
+    padding-right: 0;
+  }
+
+  .locate-comp {
+    display: flex;
+  }
+
+  .right {
+    justify-content: space-evenly;
+  }
+
+  .crown {
+    height: 65%;
+    width: 50%;
+    position: relative;
+    left: 39px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 67px;
+    top: 10px;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 120px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 151px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 202px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 755px;
+  }
+
+  .text-links {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 150px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -362px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 17.4%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 65px;
+    top: 10px;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 151px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 202px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 755px;
+  }
+
+  .text-links {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .name-card {
+    left: 150px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -360px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 17.4%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 120px;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 65px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 137px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 755px;
+  }
+
+  .text-links {
+    padding-left: 2.7rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 150px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -301px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 17.4%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 56px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 120px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 709px;
+  }
+
+  .text-links {
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 150px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -301px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 17.4%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 54px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 108px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 709px;
+  }
+
+  .text-links {
+    padding-left: 2.4rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 118px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -276px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 0;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 17.4%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 46px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 74px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 687px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 115px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -245px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16.8%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .status-info {
+    display: none;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 46px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 74px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 687px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 115px;
+    height: 30%;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -245px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16.8%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 33px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 45px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 605px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1.5rem;
+    padding-right: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 72px;
+    height: 30%;
+    width: 62%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -167px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 33px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 25px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 199px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 605px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1.2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 72px;
+    height: 30%;
+    width: 62%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -167px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 104%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 564px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1rem;
+    padding-right: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -115px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+    height: 60px;
+  }
+
+  .bigpicture {
+    width: 100%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 104%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 564px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -115px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 106%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 93px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 112%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 564px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 1rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -115px;
+    display: block;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+
+  .green {
+    width: 16%;
+  }
+
+  .bigpicture {
+    width: 106%;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 255px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 63px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 112%;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 600px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -178px;
+    display: block;
+    white-space: nowrap;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+    display: none;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 55px;
+  }
+
+  .green {
+    width: 16%;
+    height: 48px;
+  }
+
+  .bigpicture {
+    width: 106%;
+    height: 350px;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 239px) {
+  .status-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 63px;
+  }
+
+  .profile-sum {
+    display: none;
+  }
+
+  .mid-section {
+    padding: 0;
+    margin-left: 13px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-times-circle {
+    color: #f0916e;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .fa-user,
+  .vert-bar {
+    display: none;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    color: lightgrey;
+    display: none;
+  }
+
+  .text-nav .fa-user {
+    display: block;
+  }
+
+  .dude {
+    margin-right: 1rem;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    width: 116%;
+  }
+
+  .name-top {
+    padding-top: 6px;
+    margin-left: -11px;
+  }
+
+  nav .fa-bars {
+    position: relative;
+    right: 0;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav .fa-bell {
+    position: relative;
+    left: 189px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .fa-ellipsis-v {
+    color: lightgrey;
+    font-size: 1.5rem;
+    position: relative;
+    top: 13px;
+    left: 4px;
+  }
+
+  .profile-info {
+    white-space: nowrap;
+    line-height: 0;
+  }
+
+  .text-nav {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 88%;
+    left: 14px;
+    top: 600px;
+  }
+
+  .fa-location-arrow {
+    left: 24px;
+  }
+
+  .miles {
+    left: 50px;
+  }
+
+  .text-links {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 17px;
+  }
+
+  .links-1 {
+    border: 1px solid transparent;
+    background: #4e50b8;
+    border-radius: 6px;
+    position: relative;
+    top: 1px;
+    box-shadow: 0 5px 10px rgb(206, 210, 231);
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+  }
+
+  .text-links .fa-layer-group {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-comments {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-bookmark {
+    font-size: 20px;
+    color: lightgrey;
+  }
+
+  .fa-link {
+    color: white;
+  }
+
+  .scroll-icons {
+    display: none;
+  }
+
+  .locate-comp {
+    display: none;
+  }
+
+  .name-card {
+    left: 56px;
+    height: 25%;
+    width: 67%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    bottom: -178px;
+    display: block;
+    white-space: nowrap;
+    box-shadow: 0 -7px #7173d1;
+  }
+
+  .name-card-small {
+    color: lightgrey;
+  }
+
+  .fa-user-plus {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    padding-right: 12px;
+    font-size: 1.6rem;
+    color: #f0916e;
+    display: none;
+  }
+
+  .fa-circle {
+    font-size: 0.5rem;
+    color: rgb(28, 184, 28);
+    position: absolute;
+    top: 12px;
+    padding-left: 3px;
+  }
+
+  .learn {
+    font-size: 0.7rem;
+    color: lightgrey;
+    position: absolute;
+    bottom: 5px;
+    left: 55px;
+  }
+
+  .green {
+    width: 16%;
+    height: 48px;
+  }
+
+  .bigpicture {
+    width: 106%;
+    height: 350px;
+  }
+
+  .green:nth-child(6) {
+    display: none;
+  }
+
+  .green:nth-child(7) {
+    display: none;
+  }
+}
