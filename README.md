@@ -1,4 +1,4 @@
-# HTML_-_CSS_Capstone_project
+# Finders
 ![demopage](./images/screenshot.png)
 
 This is the Capstone project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc
